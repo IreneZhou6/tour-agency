@@ -18,13 +18,10 @@
             margin-top: 1rem;
 
             .box {
-                text-align: center;
-                padding: 0 1rem;
-            }
-
-            .box:first-child {
                 display: flex;
                 align-items: center;
+                text-align: center;
+                padding: 0 1rem;
             }
         }
     }
@@ -81,10 +78,6 @@
 
     .date {
         display: flex;
-
-        .input-wrap {
-            width: 50%;
-        }
     }
 
     button {
@@ -94,7 +87,21 @@
 
 @media screen and (max-width: 940px) {
     .search {
-        display: flex;
-        flex-direction: column;
+        grid-template-columns: 1fr;
+
+        .search-left-bottom {
+            flex-direction: column;
+
+            .box {
+                flex-direction: column;
+                margin-bottom: 1rem;
+            }
+        }
+
+        .date {
+            flex-direction: column;
+        }
     }
+
+
 }
