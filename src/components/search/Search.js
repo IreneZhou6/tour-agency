@@ -3,7 +3,7 @@ import Gold from '../../assets/gold.png'
 
 export default function Search() {
     return (
-        <div className='search'>
+        <div className='search container'>
             <div className="search-left">
                 <div className='info'>
                     <h2>LUXURY INCLUDED VACATIONS FOR TWO PEOPLE</h2>

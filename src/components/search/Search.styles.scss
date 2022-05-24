@@ -2,8 +2,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
-    margin: 3rem auto;
-    width: 85vw;
 
     .search-left {
         grid-column: span 2;

@@ -8,7 +8,7 @@ import KeyWest from '../../assets/keywest.jpg';
 
 export default function Destinations() {
     return (
-        <div className='destinations'>
+        <div className='destinations container'>
             <h1>All-Inclusive Resorts</h1>
             <p>On the Caribbean's Best Beaches</p>
             <div className='image-container'>
