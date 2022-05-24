@@ -1,0 +1,14 @@
+.selects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    width: 85vw;
+    padding: 4rem 0;
+    margin: auto;
+}
+
+@media screen and (max-width: 940px) {
+    .selects-container {
+        grid-template-columns: 1fr;
+    }
+}
