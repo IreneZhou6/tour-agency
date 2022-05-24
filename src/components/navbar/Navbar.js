@@ -13,7 +13,7 @@ export default function Navbar() {
     }
 
     return (
-        <div className={nav ? 'navbar dark' : 'navbar'}>
+        <div className={nav ? 'navbar nav-mob' : 'navbar'}>
             <div className='logo'><h2>BEACHES.</h2></div>
             <ul className='nav-menu'>
                 <li>Home</li>

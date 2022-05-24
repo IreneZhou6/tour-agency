@@ -24,3 +24,7 @@
 
 9.
 
+
+*** 疑问 ***
+1.为什么heade右侧用户icon不能设置padding-right，而只能设置margin
+2.为什么原作者设置了display：flex就实现了两个input平分父盒子宽度

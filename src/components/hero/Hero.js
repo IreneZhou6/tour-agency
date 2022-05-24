@@ -7,8 +7,8 @@ import Video from '../../assets/maldivesVideo.mp4'
 export default function Hero() {
     return (
         <div className='hero'>
-            <video id='video'>
-                <source src={Video} type='video/mp4' autoPlay muted loop />
+            <video id='video' autoPlay muted loop>
+                <source src={Video} type='video/mp4' />
             </video>
             <div className='overlay' />
             <div className='content' >
