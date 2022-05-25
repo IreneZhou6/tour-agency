@@ -21,3 +21,14 @@
         }
     }
 }
+
+@media screen and (max-width: 940px) {
+    .selects-location {
+        .overlay {
+            p {
+                bottom: .5rem;
+                font-size: 1rem;
+            }
+        }
+    }
+}
