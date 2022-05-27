@@ -26,8 +26,10 @@
     p {
         margin-bottom: 2rem;
     }
+}
 
-    @media screen and (max-width: 940px) {
+@media screen and (max-width: 940px) {
+    .destinations {
         .image-container {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -40,4 +42,5 @@
             }
         }
     }
+
 }
