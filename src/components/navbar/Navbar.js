@@ -4,6 +4,7 @@ import { BsPerson } from 'react-icons/bs';
 import { HiOutlineMenuAlt4 } from 'react-icons/hi';
 import { FaFacebook, FaInstagram, FaTwitter, FaPinterest, FaYoutube, FaRegWindowClose } from 'react-icons/fa';
 import { useState } from 'react';
+import { Link } from 'react-scroll';
 
 
 export default function Navbar() {
@@ -13,14 +14,14 @@ export default function Navbar() {
     }
 
     return (
-        <div className={nav ? 'navbar nav-mob' : 'navbar'}>
+        <div name='home' className={nav ? 'navbar nav-mob' : 'navbar'}>
             <div className='logo'><h2>BEACHES.</h2></div>
             <ul className='nav-menu'>
-                <li>Home</li>
-                <li>Destinations</li>
-                <li>Travel</li>
-                <li>Book</li>
-                <li>Views</li>
+                <Link to='home' smooth={true} duration={500}><li>Home</li></Link>
+                <Link to='destinations' smooth={true} duration={500}><li>Destinations</li></Link>
+                <Link to='book' smooth={true} duration={500}><li>Book</li></Link>
+                <Link to='travel' smooth={true} duration={500}><li>Travel</li></Link>
+                <Link to='carousel' smooth={true} duration={500}><li>Views</li></Link>
             </ul>
             <div className='nav-icons'>
                 <BiSearch className='icon' />
@@ -33,11 +34,11 @@ export default function Navbar() {
             </div>}
             <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
                 <ul className='mobile-nav'>
-                    <li>Home</li>
-                    <li>Destinations</li>
-                    <li>Travel</li>
-                    <li>Book</li>
-                    <li>Views</li>
+                    <Link to='home' smooth={true} duration={500}><li>Home</li></Link>
+                    <Link to='destinations' smooth={true} duration={500}><li>Destinations</li></Link>
+                    <Link to='book' smooth={true} duration={500}><li>Book</li></Link>
+                    <Link to='travel' smooth={true} duration={500}><li>Travel</li></Link>
+                    <Link to='carousel' smooth={true} duration={500}><li>Views</li></Link>
                 </ul>
                 <button>Search</button>
                 <button>Account</button>

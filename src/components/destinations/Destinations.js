@@ -1,4 +1,4 @@
-import './Destinations.styles.scss'
+import './Destinations.styles.scss';
 
 import BoraBora from '../../assets/borabora.jpg';
 import BoraBora2 from '../../assets/borabora2.jpg';
@@ -8,7 +8,7 @@ import KeyWest from '../../assets/keywest.jpg';
 
 export default function Destinations() {
     return (
-        <div className='destinations container'>
+        <div name='destinations' className='destinations container'>
             <h1>All-Inclusive Resorts</h1>
             <p>On the Caribbean's Best Beaches</p>
             <div className='image-container'>

@@ -10,7 +10,7 @@ import KeyWest from '../../assets/keywest.jpg'
 
 export default function Selects() {
     return (
-        <div className='selects container'>
+        <div name='travel' className='selects container'>
             <SelectsImg bgImg={BoraBora} text='Bora Bora' />
             <SelectsImg bgImg={BoraBora2} text='Emerald Bay' />
             <SelectsImg bgImg={Maldives} text='Maldives' />

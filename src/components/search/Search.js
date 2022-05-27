@@ -3,7 +3,7 @@ import Gold from '../../assets/gold.png'
 
 export default function Search() {
     return (
-        <div className='search container'>
+        <div name='book' className='search container'>
             <div className="search-left">
                 <div className='info'>
                     <h2>LUXURY INCLUDED VACATIONS FOR TWO PEOPLE</h2>
@@ -36,8 +36,8 @@ export default function Search() {
                 </div>
                 <form>
                     <div className="input-wrap">
-                        <label htmlFor='destinations'>Destination</label>
-                        <select id='destinations'>
+                        <label htmlFor='destination'>Destination</label>
+                        <select id='destination'>
                             <option value="1">Grande Antigua</option>
                             <option value="2">Grenda</option>
                             <option value="3">Emerald Bay</option>

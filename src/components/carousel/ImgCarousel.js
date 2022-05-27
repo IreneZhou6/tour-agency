@@ -8,7 +8,7 @@ import Maldives from '../../assets/maldives.jpg'
 
 export default function ImgCarousel() {
     return (
-        <Carousel className='carousel container' autoPlay={true} infiniteLoop={true} showArrows={true}>
+        <Carousel name='carousel' className='carousel container' autoPlay={true} infiniteLoop={true} showArrows={true}>
             <div>
                 <img src={BoraBora} alt='BoraBora' />
             </div>
